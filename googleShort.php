@@ -1,4 +1,10 @@
  <?php
+  /**
+ * Google Shorten Url
+ * @date 2016-04-21
+ * @author Pradip Kumar
+ */ 
+ 
        $yourUlr="https://github.com/pradipcoderockers"; //Long Url 
        $appUrl = "https://www.googleapis.com/urlshortener/v1/url";
        $appUrl .= '?key=' . "AIzaSyDglLb0dxqxCyUSuPpmGClUa3MIKukM45g"; // for access api key visit https://console.developers.google.com
